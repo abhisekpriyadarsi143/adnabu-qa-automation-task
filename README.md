@@ -2,7 +2,7 @@
 
 ## Overview
 
-Selenium + Python test suite for [AdNabuTestStore](https://adnabuteststore.myshopify.com) covering:
+Selenium + Python test suite for [AdNabuTestStore](https://adnabu-store-assignment1.myshopify.com) covering:
 
 - **Task 1**: Manual test cases for Product Search and Add to Cart
 - **Task 2**: Automated end-to-end scenario — Search for a product → Select it → Add to Cart
@@ -93,7 +93,7 @@ pytest -k "test_search_valid_product" -v
 
 ## Store Credentials
 
-- **Store URL**: https://adnabuteststore.myshopify.com
+- **Store URL**: https://adnabu-store-assignment1.myshopify.com
 - **Password**: `AdNabuQA`
 
 > Store is password-protected. The `conftest.py` handles login automatically.

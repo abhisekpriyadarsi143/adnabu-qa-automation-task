@@ -106,3 +106,7 @@ pytest -k "test_search_valid_product" -v
 - **Page Object Model** — each page is a class; tests never call Selenium directly
 - **Modular fixtures** — driver lifecycle managed in `conftest.py`
 - **Assertions are explicit** — every test has clear `assert` statements with messages
+
+  
+## Author
+**Abhisek Priyadarsi**
